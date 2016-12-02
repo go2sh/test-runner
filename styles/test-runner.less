@@ -1,0 +1,44 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.test-runner {
+  height: 300px;
+}
+
+.test-runner .test-tree {
+  border-top: 1px solid @base-border-color;
+  border-right: 1px solid @base-border-color;
+}
+
+.test-runner .test-log {
+  border-top: 1px solid @base-border-color;
+}
+
+.test-info .btn.btn-default {
+  width: 30px;
+  height: 30px;
+  background: @tool-panel-background-color;
+  background-image: linear-gradient(@tool-panel-background-color,@tool-panel-background-color);
+}
+
+.test-progress {
+  border: 1px solid @base-border-color;
+}
+.test-progress > .progress-successful {
+  background-color: @background-color-success;
+}
+
+.test-progress > .progress-error {
+  background-color: @background-color-error;
+}
+
+.test-failed {
+  color: @text-color-error;
+}
+
+.test-time {
+  color: @text-color-info;
+}
